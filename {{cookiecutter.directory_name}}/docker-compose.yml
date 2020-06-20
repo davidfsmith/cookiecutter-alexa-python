@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+  dynamodb:
+    container_name: dynamodb
+    image: amazon/dynamodb-local
+    networks:
+      - alexa-network
+    ports:
+      - '8000:8000'
+    volumes:
+      - dynamodata:/home/dynamodblocal
+    working_dir: /home/dynamodblocal
+    command: '-jar DynamoDBLocal.jar -sharedDb -dbPath .'
+
+networks:
+  alexa-network:
+    name: alexa-network
+
+volumes:
+  dynamodata: {}
