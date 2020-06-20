@@ -1,0 +1,7 @@
+destination,source,type,action
+uuid,,,generate_uuid
+firstname
+lastname
+website
+twitter
+linkedin
