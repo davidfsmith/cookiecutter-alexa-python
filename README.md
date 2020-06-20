@@ -26,60 +26,11 @@ Starting template for creating an Alexa skill using Python and Alexa Skills Kit
 
 Create your Alexa skill on [developer.amazon.com/alexa](https://developer.amazon.com/alexa/console/ask)
 
-### Create the initial code
+## Create your initial skill code
 
-Using `cookiecutter` create the intial code:
+Use `cookiecutter` to create your intial code:
 
     $ cookiecutter https://github.com/davidfsmith/cookiecutter-alexa-python
-
-### Deploy the application
-
-AWS CDK is used to build and deploy the application stack, the only manual step is creating the Lambda trigger (not supported by CDK as of writting) for Alexa
-
-First time:
-
-    $ make cdk_bootstrap
-
-Build the lambda layers:
-
-    $ make cdk_layer_build
-
-Then:
-
-    $ make cdk_deploy
-
-Finally paste [en-GB.json](interactionModels/en-GB.json) into the Alexa Developer console, build your skill and give it a test.
-
-Using the Alexa development console, Alexa App or any devices associated with your Amazon developer account you can then interact with your awesome new skill.
-
-**Note:** If you Alexa devices are set to a different locale you'll need to change the interactionModels/*.json as appropriate.
-
-### Loading Data
-
-Source CSV example:
-
-    firstname,lastname,website,twitter,linkedin
-    David,Smith,https://www.dave-smith.co.uk,davidfsmith,https://www.linkedin.com/in/davidfsmithy/
-
-Source CSV Map file example:
-
-    destination,source,type,action
-    uuid,,,generate_uuid
-    firstname
-    lastname
-    website
-    twitter
-    linkedin
-
-To load the data (locally):
-
-    $ make docker_start
-    $ make local_dynamodb_create
-    $ make local_dynamodb_load
-
-To load the data into AWS (CDK is used to create the DynamoDB table):
-
-    $ make dynamodb_load
 
 ## TODO
 
