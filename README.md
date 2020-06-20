@@ -26,6 +26,12 @@ Starting template for creating an Alexa skill using Python and Alexa Skills Kit
 
 Create your Alexa skill on [developer.amazon.com/alexa](https://developer.amazon.com/alexa/console/ask)
 
+### Create the initial code
+
+Using `cookiecutter` create the intial code:
+
+    $ cookiecutter https://github.com/davidfsmith/cookiecutter-alexa-python
+
 ### Deploy the application
 
 AWS CDK is used to build and deploy the application stack, the only manual step is creating the Lambda trigger (not supported by CDK as of writting) for Alexa
