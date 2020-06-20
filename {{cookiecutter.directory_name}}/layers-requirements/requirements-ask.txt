@@ -1,0 +1,4 @@
+ask-sdk-core
+ask-sdk-dynamodb-persistence-adapter
+ask-sdk-jinja-renderer
+aws-xray-sdk

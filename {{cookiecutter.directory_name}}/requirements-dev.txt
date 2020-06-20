@@ -1,0 +1,17 @@
+-r layers-requirements/requirements-ask.txt
+-r layers-requirements/requirements-utils.txt
+
+aws-cdk.core
+aws_cdk.aws_cloudfront
+aws_cdk.aws_dynamodb
+aws_cdk.aws_lambda
+aws_cdk.aws_route53
+aws_cdk.aws_s3
+
+boto3
+diagrams
+fire
+pylint
+pytest
+pytest-env
+pytest-mock
