@@ -6,5 +6,8 @@
     "alexa_skill_name_slug": "{{ cookiecutter.alexa_skill_name.lower().replace(' ', '_').replace('-', '_') }}",
     "alexa_skill_id": "<skill_id>",
     "dynamodb_table_name": "{{ cookiecutter.alexa_skill_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "cdk_profile": "cdk-user"
+    "cdk_profile": "cdk-user",
+    "_copy_without_render": [
+        "lambda_alexa/{{cookiecutter.alexa_skill_name_slug}}/templates/*.jinja"
+    ]
 }
