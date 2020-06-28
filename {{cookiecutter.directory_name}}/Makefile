@@ -1,4 +1,4 @@
-PROJECT_NAME={{cookiecutter.skill_name}}
+PROJECT_NAME={{cookiecutter.alexa_skill_name}}
 DYNAMODB_TABLE_NAME={{cookiecutter.dynamodb_table_name}}
 ALEXA_SKILL={{cookiecutter.alexa_skill_id}}
 CDK_PROFILE={{cookiecutter.cdk_profile}}
