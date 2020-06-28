@@ -29,13 +29,35 @@
                     "samples": []
                 },
                 {
-                    "name": "SkillInformation",
+                    "name": "AboutUser",
+                    "samples": [
+                        "About me",
+                        "What do you know about me?"
+                    ]
+                },
+                {
+                    "name": "GetColour",
+                    "samples": [
+                        "Get colour",
+                        "What is my favourite colour?"
+                    ]
+                },
+                {
+                    "name": "SetColour",
                     "slots": [
                         {
-                            "name": "firstname_slot",
-                            "type": "AMAZON.FirstName"
+                            "name": "colour_slot",
+                            "type": "AMAZON.Color"
                         }
                     ],
+                    "samples": [
+                        "Set colour",
+                        "Set my favourite colour",
+                        "Set my favourite colour to {colour_slot}"
+                    ]
+                },
+                {
+                    "name": "SkillInformation",
                     "samples": [
                         "What can my skill do?",
                         "Tell me about my awesome skill"
