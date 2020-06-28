@@ -1,0 +1,10 @@
+{
+    "alexa_skill_name": "Cookie Cutter Skill",
+    "directory_name": "{{ cookiecutter.alexa_skill_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "alexa_skill_invocation": "cookie cutter",
+    "alexa_skill_summary": "My awesome cookie cutter skill",
+    "alexa_skill_name_slug": "{{ cookiecutter.alexa_skill_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "alexa_skill_id": "<skill_id>",
+    "dynamodb_table_name": "{{ cookiecutter.alexa_skill_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "cdk_profile": "cdk-user"
+}
