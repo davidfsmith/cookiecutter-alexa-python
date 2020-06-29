@@ -12,6 +12,16 @@
 * Python 3.8
 * A great idea for an Alexa Skill (optional)
 
+## Local Development
+
+Set up a Python virtualenv in whichever way works for you, I use [pyenv](https://github.com/pyenv/pyenv) with [pyenv-virtual](https://github.com/pyenv/pyenv-virtualenv).  So for me:
+
+    $ pyenv virtualenv 3.8.0 <pyenv-name> && echo '<pyenv-name>' >> .python-version
+
+Then install all of the libraries using the Makefile:
+
+    $ make install
+
 ## Deploy the application
 
 AWS CDK is used to build and deploy the application stack, the only manual step is creating the Lambda trigger (not supported by CDK as of writting) for Alexa
