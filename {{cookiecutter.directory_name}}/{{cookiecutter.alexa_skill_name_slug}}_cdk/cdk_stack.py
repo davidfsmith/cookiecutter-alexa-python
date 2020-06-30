@@ -64,3 +64,9 @@ class AlexaCdkStack(core.Stack):
         dynamo_table.grant_read_write_data(alexa_lambda)
 
         Tag.add(AlexaStack, "Project", "{{cookiecutter.alexa_skill_name}}")
+
+        # Outputs
+        core.CfnOutput(
+            self, "lambda_arn",
+            value = alexa_lambda.function_arn
+        )
