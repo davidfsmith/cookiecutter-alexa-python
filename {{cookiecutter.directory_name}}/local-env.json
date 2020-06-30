@@ -1,0 +1,7 @@
+{
+  "ChatBotFunction": {
+    "ENV":"LOCAL",
+    "LOGGING":"DEBUG",
+    "DYNAMODB":"{{cookiecutter.dynamodb_table_name}}",
+  }
+}
