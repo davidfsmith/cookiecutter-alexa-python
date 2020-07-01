@@ -63,7 +63,7 @@ class AlexaCdkStack(core.Stack):
         alexa_lambda.add_environment("DYNAMODB", dynamo_table.table_name)
         dynamo_table.grant_read_write_data(alexa_lambda)
 
-        Tag.add(AlexaStack, "Project", "{{cookiecutter.alexa_skill_name}}")
+        Tag.add(alexa_stack, "Project", "{{cookiecutter.alexa_skill_name}}")
 
         # Outputs
         core.CfnOutput(
