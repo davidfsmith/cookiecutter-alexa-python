@@ -1,8 +1,8 @@
 {
-    "alexa_skill_name": "Cookie Cutter Skill",
+    "alexa_skill_name": "Cookie Cutter",
     "directory_name": "{{ cookiecutter.alexa_skill_name|lower|replace(' ', '_')|replace('-', '_') }}",
     "alexa_skill_invocation": "cookie cutter",
-    "alexa_skill_summary": "My awesome cookie cutter skill",
+    "alexa_skill_summary": "My awesome Alexa cookie cutter",
     "alexa_skill_name_slug": "{{ cookiecutter.directory_name }}",
     "alexa_skill_cdk_stack_name": "{{ cookiecutter.alexa_skill_name|replace(' ', '-')|replace('_', '-') }}-Stack",
     "alexa_skill_id": "<skill_id>",
