@@ -32,14 +32,14 @@
                     "name": "AboutUser",
                     "samples": [
                         "About me",
-                        "What do you know about me?"
+                        "What do you know about me"
                     ]
                 },
                 {
                     "name": "GetColour",
                     "samples": [
                         "Get colour",
-                        "What is my favourite colour?"
+                        "What is my favourite colour"
                     ]
                 },
                 {
@@ -59,7 +59,7 @@
                 {
                     "name": "SkillInformation",
                     "samples": [
-                        "What can my skill do?",
+                        "What can my skill do",
                         "Tell me about my awesome skill"
                     ]
                 },
