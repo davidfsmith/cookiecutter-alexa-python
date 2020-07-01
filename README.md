@@ -36,3 +36,4 @@ Use `cookiecutter` to create your intial code:
 
 * Testing
 * Automate more of the building (when possible)
+* Move output to templates (Using Alexa Presentation Language)
