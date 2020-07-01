@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "{{cookiecutter.alexa_skill_summary}}",
+          "examplePhrases": [
+            "Alexa open {{cookiecutter.alexa_skill_name}}",
+            "Alexa ask {{cookiecutter.alexa_skill_name}} where do I live"
+          ],
+          "name": "{{cookiecutter.alexa_skill_name}}",
+          "description": "{{cookiecutter.alexa_skill_summary}}"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "",
+      "distributionCountries": []
+    }
+  }
+}
