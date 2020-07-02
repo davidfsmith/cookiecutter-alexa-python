@@ -1,0 +1,13 @@
+{
+  "outputSpeech": {
+    "type": "PlainText",
+    "text": "{{ card.content }}",
+    "playBehavior": "REPLACE_ENQUEUED"
+  },
+  "card": {
+    "type": "Standard",
+    "title": "Talking News Error",
+    "text": "{{ card.content }}"
+  },
+  "shouldEndSession": {{ should_end_session }}
+}

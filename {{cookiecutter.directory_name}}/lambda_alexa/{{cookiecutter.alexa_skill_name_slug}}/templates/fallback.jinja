@@ -1,0 +1,13 @@
+{
+  "outputSpeech": {
+    "type": "PlainText",
+    "text": "Sorry, I can't do that a the moment, you can ask me about the latest recorded news in your area.",
+    "playBehavior": "REPLACE_ENQUEUED"
+  },
+  "card": {
+    "type": "Standard",
+    "title": "Talking News intent",
+    "text": "{{ card.content }}"
+  },
+  "shouldEndSession": {{ should_end_session }}
+}
