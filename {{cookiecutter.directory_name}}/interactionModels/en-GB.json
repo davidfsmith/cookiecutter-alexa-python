@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "cookie cutter",
+            "invocationName": "my cookie cutter",
             "modelConfiguration": {
                 "fallbackIntentSensitivity": {
                     "level": "LOW"
