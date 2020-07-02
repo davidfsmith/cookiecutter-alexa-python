@@ -32,8 +32,16 @@ Use `cookiecutter` to create your intial code:
 
     $ cookiecutter https://github.com/davidfsmith/cookiecutter-alexa-python
 
+## Examples to add
+
+* Re-prompting if a slot value is empty
+* Use of `Customer Name` perimssion
+* Use of `Device Address` permission
+* Account linking
+
 ## TODO
 
+* Improved Documentation
 * Testing
 * Automate more of the building (when possible)
 * Move output to templates (Using Alexa Presentation Language)
