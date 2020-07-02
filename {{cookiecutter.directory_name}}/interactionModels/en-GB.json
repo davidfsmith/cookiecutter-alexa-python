@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "{{cookiecutter.alexa_skill_invocation}}",
+            "invocationName": "cookie cutter",
             "modelConfiguration": {
                 "fallbackIntentSensitivity": {
                     "level": "LOW"
@@ -32,14 +32,15 @@
                     "name": "AboutUser",
                     "samples": [
                         "About me",
-                        "What do you know about me"
+                        "what do you know about me"
                     ]
                 },
                 {
                     "name": "GetColour",
                     "samples": [
-                        "Get colour",
-                        "What is my favourite colour"
+                        "get colour",
+                        "what is my favourite colour",
+                        "what's my favourite colour"
                     ]
                 },
                 {
@@ -51,16 +52,15 @@
                         }
                     ],
                     "samples": [
-                        "Set colour",
-                        "Set my favourite colour",
-                        "Set my favourite colour to {colour_slot}"
+                        "set favourite colour to {colour_slot}",
+                        "set my favourite colour to {colour_slot}"
                     ]
                 },
                 {
                     "name": "SkillInformation",
                     "samples": [
-                        "What can my skill do",
-                        "Tell me about my awesome skill"
+                        "what can my skill do",
+                        "tell me about my awesome skill"
                     ]
                 },
                 {
