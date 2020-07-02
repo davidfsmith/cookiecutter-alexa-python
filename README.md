@@ -30,7 +30,7 @@ Create your Alexa skill on [developer.amazon.com/alexa](https://developer.amazon
 
 Use `cookiecutter` to create your intial code:
 
-    $ cookiecutter https://github.com/davidfsmith/cookiecutter-alexa-python
+    $ cookiecutter gh:/davidfsmith/cookiecutter-alexa-python
 
 ## Examples to add
 
